@@ -1,13 +1,29 @@
 import java.util.LinkedList;
 import java.util.Deque;
 
+// public class MyStack<T> implements Frontier<T>{
+ // private LinkedList<T> stack;
+
+//  public MyStack(){
+  //  stack = new LinkedList<T>();
+  //}
+
+  //public void add(T newItem){
+    //stack.push(newItem);
+  //}
+
+  //public T remove(){
+    //return stack.pop();
+  //}
+
+  //public int size(){
+    //return stack.size();
+  //}
+ //}
 
 public class MazeSolver{
   private Maze maze;
 
-  /**
-   * Constructor for the MazeSolver class.
-   */
   public MazeSolver(Maze maze){
     this.maze = maze;
   }
